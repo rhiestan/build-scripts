@@ -1,0 +1,69 @@
+REM
+REM libs_versions.bat
+REM
+REM Set versions of libraries
+REM
+REM Version 1.0, 16.11.2016
+
+
+REM ZLIB
+SET SB_ZLIB_FILENAME=zlib-1.2.8.tar.xz
+SET SB_ZLIB_PATH=zlib-1.2.8
+
+REM XZ
+SET SB_XZ_UTILS_FILENAME=xz-5.2.2.tar.xz
+SET SB_XZ_UTILS_PATH=xz-5.2.2
+
+REM bzip2
+SET SB_BZIP2_FILENAME=bzip2-1.0.6.tar.gz
+SET SB_BZIP2_PATH=bzip2-1.0.6
+
+REM PNG
+SET SB_PNG_FILENAME=libpng-1.6.26.tar.xz
+SET SB_PNG_PATH=libpng-1.6.26
+
+REM JPEG
+SET SB_JPEG_FILENAME=jpegsrc.v9b.tar.gz
+SET SB_JPEG_PATH=jpeg-9b
+
+REM TIFF
+SET SB_TIFF_FILENAME=tiff-4.0.6.tar.gz
+SET SB_TIFF_PATH=tiff-4.0.6
+
+REM ICU
+SET SB_ICU_FILENAME=icu4c-58_1-src.zip
+SET SB_ICU_PATH=icu
+
+REM boost
+SET SB_BOOST_FILENAME=boost_1_62_0.7z
+SET SB_BOOST_PATH=boost_1_62_0
+
+REM lcms2
+SET SB_LCMS2_FILENAME=lcms2-2.8.tar.gz
+SET SB_LCMS2_PATH=lcms2-2.8
+
+REM WebP
+SET SB_WEBP_FILENAME=libwebp-0.5.1.tar.gz
+SET SB_WEBP_PATH=libwebp-0.5.1
+
+REM freetype
+SET SB_FREETYPE_FILENAME=freetype-2.7.tar.bz2
+SET SB_FREETYPE_PATH=freetype-2.7
+
+REM OpenJPEG
+SET SB_OPENJPEG_FILENAME=openjpeg-2.1.2.tar.gz
+SET SB_OPENJPEG_PATH=openjpeg-2.1.2
+
+REM OpenCV
+SET SB_OPENCV_FILENAME=opencv-3.1.0.zip
+SET SB_OPENCV_PATH=opencv-3.1.0
+SET SB_OPENCV_CONTRIB_FILENAME=opencv_contrib-3.1.0.zip
+SET SB_OPENCV_CONTRIB_PATH=opencv_contrib-3.1.0
+
+REM GraphicsMagick
+SET SB_GRAPHICSMAGICK_FILENAME=GraphicsMagick-1.3.25.tar.xz
+SET SB_GRAPHICSMAGICK_PATH=GraphicsMagick-1.3.25
+
+REM wxWidgets
+SET SB_WXWIDGETS_FILENAME=wxWidgets-3.1.0.7z
+SET SB_WXWIDGETS_PATH=wxWidgets

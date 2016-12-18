@@ -1,0 +1,2 @@
+tiff: static build, BUILD_SHARED_LIBS=OFF nützt nichts
+OpenCV: Eigen
