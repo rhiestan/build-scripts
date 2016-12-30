@@ -24,6 +24,12 @@ SET SB_MINGW64_PATH=F:\Tools\MSYS2\mingw64\bin
 REM Path to 7zip
 SET SB_7ZIP_PATH=C:\Program Files\7-Zip
 
+REM Path to NASM (Netwide assembler)
+SET SB_NASM_PATH=F:\Tools\NASM64
+
+REM Path to ActiveState Perl
+SET SB_PERL_PATH=F:\Programme\Perl64\bin
+
 REM cccl path
 SET SB_CCCL_PATH=F:\Projects\libs\libs_vstudio15\cccl
 

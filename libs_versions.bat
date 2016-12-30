@@ -88,3 +88,20 @@ SET SB_POL_PATH=pcl-pcl-1.8.0
 REM OpenSceneGraph
 SET SB_OSG_FILENAME=OpenSceneGraph-3.4.0.zip
 SET SB_OSG_PATH=OpenSceneGraph-3.4.0
+
+REM OpenSSL
+SET SB_OPENSSL_FILENAME=openssl-1.1.0c.tar.gz
+SET SB_OPENSSL_FILENAME_TAR=openssl-1.1.0c.tar
+SET SB_OPENSSL_PATH=openssl-1.1.0c
+
+REM NLOPT
+SET SB_NLOPT_FILENAME=nlopt-2.4.2.tar.gz
+SET SB_NLOPT_PATH=nlopt-2.4.2
+
+REM Ceres
+SET SB_CERES_FILENAME=ceres-solver-1.12.0.tar.gz
+SET SB_CERES_PATH=ceres-solver-1.12.0
+
+REM AssImp
+SET SB_ASSIMP_FILENAME=assimp-3.3.1.tar.gz
+SET SB_ASSIMP_PATH=assimp-3.3.1

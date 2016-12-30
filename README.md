@@ -10,6 +10,8 @@ Required tools:
 - Ninja
 - JOM
 - CMake
+- NASM (Netwide Assembler)
+- Perl (ActiveState Perl)
 
 
 Current status: Work in progress, incomplete
