@@ -80,7 +80,7 @@ mkdir build-release
 cd build-release
 
 export CCCL_OPTIONS="/MD --cccl-verbose /EHsc /Os /DNOMINMAX"
-CC=cccl CXX=cccl LD=cccl LIBS=" -llibpng16 -lliblzma -llibjpeg -lzlibstatic -luser32 -lole32 -loleaut32" ../configure --build=x86_64-pc-mingw32 --disable-debug --disable-shared --disable-compat28 --with-opengl --with-libjpeg=sys --with-libpng=sys --with-libtiff=sys --enable-ole --enable-dataobj --enable-mediactrl --disable-webview --prefix=$SB_INSTALL_PATH_MSYS CPPFLAGS="-I$SB_INSTALL_PATH_MSYS/include" LDFLAGS="-L$SB_INSTALL_PATH_MSYS/lib"
+CC=cccl-wx CXX=cccl-wx LD=cccl-wx LIBS=" -llibpng16 -lliblzma -llibjpeg -lzlibstatic -luser32 -lole32 -loleaut32" ../configure --build=x86_64-pc-mingw32 --disable-debug --disable-shared --disable-compat28 --with-opengl --with-libjpeg=sys --with-libpng=sys --with-libtiff=sys --enable-ole --enable-dataobj --enable-mediactrl --disable-webview --prefix=$SB_INSTALL_PATH_MSYS CPPFLAGS="-I$SB_INSTALL_PATH_MSYS/include" LDFLAGS="-L$SB_INSTALL_PATH_MSYS/lib"
 
 sed -i 's/#define __GNUWIN32__ 1/#undef __GNUWIN32__/g' lib/wx/include/msw-unicode-static-3.1/wx/setup.h
 sed -i 's/#define wxUSE_OLE[ \t]*0/#define wxUSE_OLE 1/g' lib/wx/include/msw-unicode-static-3.1/wx/setup.h
@@ -121,7 +121,7 @@ mkdir build-debug
 cd build-debug
 
 export CCCL_OPTIONS="/MDd --cccl-verbose /EHsc /Od /DNOMINMAX /D_ITERATOR_DEBUG_LEVEL=2"
-CC=cccl CXX=cccl LD=cccl LIBS=" -llibpng16 -lliblzma -llibjpeg -lzlibstatic -luser32 -lole32 -loleaut32" ../configure --build=x86_64-pc-mingw32 --enable-debug --disable-shared --disable-compat28 --with-opengl --with-libjpeg=sys --with-libpng=sys --with-libtiff=sys --enable-ole --enable-dataobj --enable-mediactrl --disable-webview --prefix=$SB_INSTALL_PATH_MSYS CPPFLAGS="-I$SB_INSTALL_PATH_MSYS/include" LDFLAGS="-L$SB_INSTALL_PATH_MSYS/lib"
+CC=cccl-wx CXX=cccl-wx LD=cccl-wx LIBS=" -llibpng16 -lliblzma -llibjpeg -lzlibstatic -luser32 -lole32 -loleaut32" ../configure --build=x86_64-pc-mingw32 --enable-debug --disable-shared --disable-compat28 --with-opengl --with-libjpeg=sys --with-libpng=sys --with-libtiff=sys --enable-ole --enable-dataobj --enable-mediactrl --disable-webview --prefix=$SB_INSTALL_PATH_MSYS CPPFLAGS="-I$SB_INSTALL_PATH_MSYS/include" LDFLAGS="-L$SB_INSTALL_PATH_MSYS/lib"
 
 sed -i 's/#define __GNUWIN32__ 1/#undef __GNUWIN32__/g' lib/wx/include/msw-unicode-static-3.1/wx/setup.h
 sed -i 's/#define wxUSE_OLE[ \t]*0/#define wxUSE_OLE 1/g' lib/wx/include/msw-unicode-static-3.1/wx/setup.h

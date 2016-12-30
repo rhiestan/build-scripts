@@ -14,5 +14,5 @@ Required tools:
 
 Current status: Work in progress, incomplete
 
-License: New BSD
+License: [MIT](http://opensource.org/licenses/mit-license.php)
 
