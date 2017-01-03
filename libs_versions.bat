@@ -105,3 +105,7 @@ SET SB_CERES_PATH=ceres-solver-1.12.0
 REM AssImp
 SET SB_ASSIMP_FILENAME=assimp-3.3.1.tar.gz
 SET SB_ASSIMP_PATH=assimp-3.3.1
+
+REM Google Test
+SET SB_GTEST_FILENAME=googletest-release-1.8.0.tar.gz
+SET SB_GTEST_PATH=googletest-release-1.8.0
