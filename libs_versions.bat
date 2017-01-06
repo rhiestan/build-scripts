@@ -55,9 +55,9 @@ SET SB_OPENJPEG_FILENAME=openjpeg-2.1.2.tar.gz
 SET SB_OPENJPEG_PATH=openjpeg-2.1.2
 
 REM Eigen
-SET SB_EIGEN_FILENAME=eigen-eigen-f562a193118d.tar.bz2
-SET SB_EIGEN_PATH=eigen-eigen-f562a193118d
-SET SB_EIGEN_VERSION_PATH=eigen-3.3.1
+SET SB_EIGEN_FILENAME=eigen-3.2.10.tar.bz2
+SET SB_EIGEN_PATH=eigen-eigen-b9cd8366d4e8
+SET SB_EIGEN_VERSION_PATH=eigen-3.2.10
 
 REM OpenCV
 SET SB_OPENCV_FILENAME=opencv-3.1.0.zip
@@ -109,3 +109,7 @@ SET SB_ASSIMP_PATH=assimp-3.3.1
 REM Google Test
 SET SB_GTEST_FILENAME=googletest-release-1.8.0.tar.gz
 SET SB_GTEST_PATH=googletest-release-1.8.0
+
+REM openMVG
+SET SB_OPENMVG_FILENAME=openMVG-1.1_r3d.7z
+SET SB_OPENMVG_PATH=openMVG-1.1_r3d
