@@ -113,3 +113,15 @@ SET SB_GTEST_PATH=googletest-release-1.8.0
 REM openMVG
 SET SB_OPENMVG_FILENAME=openMVG-1.1_r3d.7z
 SET SB_OPENMVG_PATH=openMVG-1.1_r3d
+
+REM SuiteSparse
+SET SB_SUITESPARSE_FILENAME=suitesparse-metis-for-windows-1.3.1.tar.gz
+SET SB_SUITESPARSE_PATH=suitesparse-metis-for-windows-1.3.1
+
+REM Gflags
+SET SB_GFLAGS_FILENAME=gflags-2.2.0.tar.gz
+SET SB_GFLAGS_PATH=gflags-2.2.0
+
+REM Glog
+SET SB_GLOG_FILENAME=glog-0.3.4.tar.gz
+SET SB_GLOG_PATH=glog-0.3.4
